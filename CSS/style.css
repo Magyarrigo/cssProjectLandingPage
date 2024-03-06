@@ -1,4 +1,34 @@
-.roboto-regular {
+:root {
+  --color-navigation: #4e4e4e;
+  --color-footer: #4e4e4e;
+  --color-secondary: #405d78;
+  --color-circle: #e07a64;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-primary: #f1f1f1;
+  --color-borderShadow: #405d78;
+  --color-shadow: #00000026;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.landingPage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/first_side_photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh-50px);
+}
+.landingPageShadow {
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/shadow.png);
+}
+
+/*.roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -8,15 +38,9 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
-}
-body{
-  background-image: url(/assets/first_side_photo.jpg);
-  background-size: cover;
-}
+}*/
+
 .container {
-  width: 900px;
- 
+  width: 960px;
   margin: 0 auto;
-  height: 100vh;
-  
 }
