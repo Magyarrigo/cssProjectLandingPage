@@ -11,15 +11,18 @@
 }
 * {
   font-family: "Roboto", sans-serif;
+
   font-weight: 400;
   font-style: normal;
 }
 .landingPage {
   width: 100vw;
   height: 100vh;
-  background-image: url(/assets/first_side_photo.jpg);
+  background-image: url(/assets/landingPageBackgroundImage.png);
+
   background-size: cover;
   background-repeat: no-repeat;
+
   height: calc(100vh-50px);
 }
 .landingPageShadow {
