@@ -2,9 +2,13 @@ HTML/CSS - Projekt 1
 
 Poprawnie stworzony projekt musi posiadać:
 
-link do repo na GitHubie (Jak stworzyć własne repo na GitHubie?)
-link do dzialajacej strony na Netlify (Jak deploynąć kod z GitHuba na Netlify?)
-mieć kod sformatowany z użyciem formatera Prettier (VSCode plug-in)
+link do repo na GitHubie:
+https://github.com/Magyarrigo/cssProjectLandingPage.git
+
+link do dzialajacej strony na Netlify:
+https://csslandingpage.netlify.app/
+
+mieć kod sformatowany z użyciem formatera Prettier (VSCode plug-in): done
 
 Opis
 Design projektu w aplikacji Figma znajdziesz pod tym adresem: https://www.figma.com/file/DGyuGsapuc5gGf5KMEEGG3/Projekt-zaliczeniowy-1
