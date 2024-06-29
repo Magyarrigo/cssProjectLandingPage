@@ -25,12 +25,8 @@ Paddingi we wszystkich sekcjach powinny być ujednolicone (górny i dolny powinn
 W boksach, nieważne jaką ilość treści podamy, powinna być zawsze wyśrodkowana w pionie i poziomie.
 Po najechaniu na boxy, spraw aby powiększyły się o 5% przy pomocy funkcji transform: scale(1.05). Spraw aby animacja była płynna i trwała pół sekundy
 
-moja firma
-o nas
-oferta
-kontakt
-/_ Landing Page _/
-
-position: absolute;
-width: 1280px;
-height: 574px;
+<section class="landingPage">
+      <div class="landingPageShadow">
+        <div class="container"></div>
+      </div>
+    </section>
