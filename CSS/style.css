@@ -8,7 +8,7 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-primary: #f1f1f1;
-  --color-borderShadow: #405d78;
+
   --color-shadow: #00000026;
 }
 * {
@@ -72,6 +72,57 @@ li {
   background-color: var(--color-black);
   opacity: 0.4;
 }
+
+/* stylowanie banneru
+*/
+.pageBanner {
+  flex-grow: 1;
+  position: relative;
+  color: var(--color-white);
+  text-align: start;
+  display: flex;
+}
+.pageBanner > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px 20px;
+}
+.pageBannerTitle {
+  width: 577px;
+  height: 46.11px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.pageBannerDescription {
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.pageBannerLink {
+  width: 164px;
+  height: 40px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  border: solid 3px var(--color-primary);
+  justify-content: center;
+
+  color: var(--color-white);
+  transition: 1s;
+}
+.pageBannerLink:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+/* oferta */
+
+/*
 .pageBanner {
   flex-grow: 1;
   position: relative;
@@ -86,33 +137,52 @@ li {
   padding: 10px 20px;
 }
 .pageBannerTitle {
+  position: absolute;
+  width: 577px;
+  height: 46.11px;
+
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
 }
 .pageBannerDescription {
   margin-top: 40px;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 18px;
+  width: 276px;
+  line-height: 21px;
+  height: 23.13px;
+  top: -12.71px;
+  left: -236px;
+  gap: 0px;
+  opacity: 0px;
 }
 .pageBannerLink {
   display: inline-block;
   width: 60px;
   margin-top: 54px;
   padding: 22px 55px;
-  border-radius: 50px;
+  border: px solid var(--color-white);
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
   text-transform: lowercase;
-  background-color: var(--color-red);
+
   color: --color-white;
   justify-content: center;
-  box-shadow: 0 3px 6px var(--color-red-opacity-1);
-  transition: 2s;
+
+  transition: 1s;
 }
 .pageBannerLink:hover {
   background-color: var(--color-white);
-  color: var(--color-red);
+  color: var(--color-black);
 }
+
+/* Nasza firma oferuje najwyższej jakości produkty. */
