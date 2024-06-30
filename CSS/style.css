@@ -8,7 +8,6 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-primary: #f1f1f1;
-
   --color-shadow: #00000026;
 }
 * {
@@ -23,32 +22,6 @@ a {
 li {
   list-style: none;
 }
-
-/*.landingPage {
-  width: 100vw;
-  height: 100vh;
-  background-image: url(/assets/first_side_photo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: calc(100vh-50px);
-}
-.landingPageShadow {
-  width: 100%;
-  height: 100%;
-  background-image: url(/assets/shadow.png);
-}
-
-/*.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}*/
 
 .container {
   width: 960px;
