@@ -92,3 +92,49 @@ li {
   background-color: var(--color-white);
   color: var(--color-black);
 }
+
+/*footer*/
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-footer);
+}
+.footerContainer {
+  /* width: 100%;*/
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*.logoAtFooter {
+  display: flex;
+
+  height: 20px;
+}
+  */
+.logoAtFooterContainer {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: left;
+}
+
+.footerContainerMediaIcons {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  font-size: 36px;
+  background-color: var(--color-footer);
+}
+.fa-brands {
+  background-color: var(--color-footer);
+  color: var(--color-white);
+  font-size: 36px;
+  padding-right: 10px;
+}
