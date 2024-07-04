@@ -182,13 +182,13 @@ p {
   flex-direction: row-reverse;
   text-align: end;
 }
-/*
+
 .offerContainer {
   background-color: var(--color-secondary);
 }
 .ourOfferTitle {
   position: relative;
-  margin-top: 50px;
+  padding-top: 50px;
   color: var(--color-white);
 }
 .ourOffersContainer {
@@ -235,6 +235,7 @@ p {
 .indexNew {
   font-size: 16px;
 }
+/*
 .footer {
   bottom: 0;
   width: 100%;
