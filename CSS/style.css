@@ -159,9 +159,6 @@ p {
   display: block;
 }
 .associateDataTitle {
-  display: flex;
-  gap: 8px;
-  width: 45%;
   margin-bottom: 20px;
 }
 .associatePhoto {
@@ -186,7 +183,6 @@ p {
   text-align: end;
 }
 .offerContainer {
-  position: static;
   background-color: var(--color-secondary);
 }
 .ourOfferTitle {
