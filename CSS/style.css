@@ -6,8 +6,6 @@
   --color-red: #ff0000;
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-red-opacity-1: #ff00004d;
-  --color-shadow: #00000026;
 }
 * {
   font-family: "Roboto", sans-serif;
@@ -53,7 +51,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 }
 .logoAtHeaderContainer {
   width: 90px;
@@ -118,15 +116,16 @@ p {
   display: flex;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 100px 20px;
+  justify-content: space-between;
+  margin-bottom: 300px;
+  padding: 10px 0px;
 }
 .pageBannerTitle {
   width: 577px;
   height: 46.11px;
+  margin-top: 170px;
 }
 .pageBannerDescription {
-  margin-top: 70px;
   font-weight: 700;
   font-size: 18px;
 }
@@ -152,8 +151,7 @@ p {
   background-color: var(--color-primary);
 }
 .aboutUsTitle {
-  padding: 20px;
-  margin: 0;
+  margin-top: 50px;
   color: var(--color-black);
 }
 .associateData {
@@ -164,7 +162,7 @@ p {
   display: flex;
   gap: 8px;
   width: 45%;
-  margin: 18 0;
+  margin-bottom: 20px;
 }
 .associatePhoto {
   border-radius: 50%;
@@ -188,12 +186,12 @@ p {
   text-align: end;
 }
 .offerContainer {
-  min-height: 500px;
+  position: static;
   background-color: var(--color-secondary);
 }
 .ourOfferTitle {
-  padding: 20px;
-  margin: 0;
+  position: relative;
+  margin-top: 50px;
   color: var(--color-white);
 }
 .ourOffersContainer {
@@ -251,7 +249,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 20px;
 }
 .logoAtFooterContainer {
   width: 450px;
