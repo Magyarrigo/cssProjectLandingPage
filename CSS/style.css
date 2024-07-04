@@ -91,6 +91,7 @@ p {
 .contactButton {
   cursor: not-allowed;
 }
+
 .landingPage {
   height: calc(100vh - 70px);
   background-image: url(../assets/first_side_photo.jpg);
@@ -114,16 +115,14 @@ p {
   color: var(--color-white);
   text-align: start;
   display: flex;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 300px;
-  padding: 10px 0px;
+  padding-bottom: 250px;
 }
 .pageBannerTitle {
   width: 577px;
   height: 46.11px;
-  margin-top: 170px;
+  margin-top: 200px;
 }
 .pageBannerDescription {
   font-weight: 700;
@@ -146,6 +145,7 @@ p {
   background-color: var(--color-white);
   color: var(--color-black);
 }
+/*
 .aboutUs {
   min-height: 200px;
   background-color: var(--color-primary);
@@ -270,3 +270,4 @@ p {
   font-size: 36px;
   padding-right: 10px;
 }
+*/
